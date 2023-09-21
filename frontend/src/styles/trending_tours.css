@@ -1,0 +1,85 @@
+.tour-packages {
+    font-family: Arial, sans-serif;
+  }
+  
+  .accordion {
+    margin-bottom: 10px;
+  }
+  
+  .accordion-header {
+    cursor: pointer;
+    padding: 20px;
+    background-color: #190130; 
+    border: none;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+  }
+   
+  .my-heading
+  {
+    margin: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .my-heading span
+  {
+     color: white;
+     background-color: pink;
+     border-radius: .5rem;
+     padding: .5rem;
+  }
+
+  .accordion-header p{
+    color: white;
+    font-weight: bold;
+  }
+  
+  .accordion-content {
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .accordion-header.open {
+    background-color: #ddd;
+  }
+  
+  .responsive-table {
+    width: 100%;
+    /* border-collapse: collapse; */
+    border: none !important;
+    
+  }
+  
+  th, td {
+    border: none;
+    padding: 8px;
+    text-align: left;
+  }
+
+  tr{
+    background-color: white;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+    background-color: pink;
+  }
+
+  .my-btn
+  {
+    background-color:#190130;
+    color: white;
+    padding: .5rem;
+    border-radius: .4rem;
+    margin: .5rem;
+  }
+  
+  @media (max-width: 768px) {
+    th, td {
+      font-size: 14px;
+    }
+  }
+  
